@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:places_app/configs/themes/theme.dart';
-import 'package:places_app/presentation/pages/main_screen.dart';
+import 'package:places_app/presentation/pages/places_screen.dart';
 import 'package:places_app/utils/constant.dart';
 
 class App extends StatelessWidget {
@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: kAppName,
       theme: kTheme,
-      home: const MainScreen(),
+      home: const PlacesScreen(),
     );
   }
 }
