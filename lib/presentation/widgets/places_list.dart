@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:places_app/domain/models/place_model.dart';
+import 'package:places_app/utils/constant.dart';
 
 class PlacesList extends StatelessWidget {
   const PlacesList({super.key, required this.places});
@@ -11,7 +12,7 @@ class PlacesList extends StatelessWidget {
     if (places.isEmpty) {
       return Center(
         child: Text(
-          'Not Places added yet !',
+          kPlaceListIsEmpty,
           style: Theme.of(context)
               .textTheme
               .bodyLarge!
