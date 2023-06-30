@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:places_app/configs/themes/theme.dart';
 import 'package:places_app/presentation/pages/main_screen.dart';
+import 'package:places_app/utils/constant.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -8,7 +10,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData().copyWith(useMaterial3: true),
+      title: kAppName,
+      theme: kTheme,
       home: const MainScreen(),
     );
   }
