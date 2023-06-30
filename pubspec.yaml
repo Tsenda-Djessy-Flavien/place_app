@@ -17,6 +17,9 @@ dependencies:
   # google fonts
   google_fonts:
 
+  # generate id
+  uuid:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
