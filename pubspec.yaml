@@ -20,6 +20,9 @@ dependencies:
   # generate id
   uuid:
 
+  # state management
+  flutter_riverpod:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
