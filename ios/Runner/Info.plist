@@ -6,6 +6,12 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Places App</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Pour publier un lieu il faut obligatoirement la photo de ce lieu</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Vous permet de prendre la photo du lieu que vous souhaitez publier</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Enregister votre lieu Favoris</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

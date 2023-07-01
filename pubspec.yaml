@@ -23,6 +23,9 @@ dependencies:
   # state management
   flutter_riverpod:
 
+  # take and add an image
+  image_picker:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
