@@ -10,14 +10,15 @@ class PlaceDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(places.title)),
-      body: Center(
-        child: Text(
-          places.title,
-          style: Theme.of(context)
-              .textTheme
-              .bodyLarge!
-              .copyWith(color: Theme.of(context).colorScheme.onBackground),
-        ),
+      body: Stack(
+        children: [
+          Image.file(
+            places.image,
+            fit: BoxFit.cover,
+            width: double.infinity,
+            height: double.infinity,
+          ),
+        ],
       ),
     );
   }
