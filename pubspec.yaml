@@ -26,6 +26,9 @@ dependencies:
   # take and add an image
   image_picker:
 
+  # get location
+  location:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
