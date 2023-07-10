@@ -29,6 +29,9 @@ dependencies:
   # get location
   location:
 
+  # handle request 
+  http:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
