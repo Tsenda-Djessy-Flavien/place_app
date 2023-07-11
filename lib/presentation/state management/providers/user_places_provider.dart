@@ -13,8 +13,12 @@ class UserPlacesNotifier extends StateNotifier<List<PlaceModel>> {
   UserPlacesNotifier() : super(const []);
 
   // Méthode pour créer un new object de lieu et ensuite l'ajouter dans notre list
-  void addPlace(String title, File image) {
-    final PlaceModel newPlace = PlaceModel(title: title, image: image);
+  void addPlace(String title, File image, PlaceLocation location) {
+    final PlaceModel newPlace = PlaceModel(
+      title: title,
+      image: image,
+      location: location,
+    );
     state = [newPlace, ...state];
   }
 }
