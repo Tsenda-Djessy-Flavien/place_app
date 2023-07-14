@@ -32,6 +32,9 @@ dependencies:
   # handle request 
   http:
 
+  # google maps 
+  google_maps_flutter:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
