@@ -68,7 +68,7 @@ class _LocationInputState extends State<LocationInput> {
     final response = await http.get(url);
     final resData = json.decode(response.body);
     final address = resData['results'][0]['formatted_address'];
-    print(address);
+    // print(address);
 
     setState(() {
       _pickedLocation = PlaceLocation(
